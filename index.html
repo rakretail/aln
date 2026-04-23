@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -369,17 +371,17 @@ function updateInsights(monthlyCounts, dailyTotal) {
     let messages = [];
 
     const nasarJokes = [
-        `SHYJU'S RULE: If a customer smiles, they've basically bought a bathroom set. 📋`,
-        `SHYJU: "The dashboard is green, but my tea is cold. More sales please!" ☕`,
-        `SHYJU'S SECRET: He doesn't sleep, he just waits for the next Order. 🧱`,
-        `SHYJU: "If you have time to sit, you have time to sell." 🪑`,
-        `SHYJU'S RULE: No phone scrolling unless it's checking a confirmed order. 📱`,
-        `SHYJU: "Smile wider… that customer looks expensive." 😏`,
-        `SHYJU'S ALERT: Someone just walked in. Why are we still breathing normally? 🚨`,
-        `SHYJU: "Every 'just looking' is a future invoice. Act accordingly." 🧾`,
-        `SHYJU: "If they ask for discount, increase your confidence." 💼`,
-        `SHYJU: "Don't show tiles… show them their dream home." ✨`,
-        `SHYJU: "I can smell a big sale from the parking lot. Get ready!" 👃💰`
+        `MOHAB'S RULE: If a customer smiles, they've basically bought a bathroom set. 📋`,
+        `MOHAB: "The dashboard is green, but my tea is cold. More sales please!" ☕`,
+        `MOHAB'S SECRET: He doesn't sleep, he just waits for the next Order. 🧱`,
+        `MOHAB: "If you have time to sit, you have time to sell." 🪑`,
+        `MOHAB'S RULE: No phone scrolling unless it's checking a confirmed order. 📱`,
+        `MOHAB: "Smile wider… that customer looks expensive." 😏`,
+        `MOHAB'S ALERT: Someone just walked in. Why are we still breathing normally? 🚨`,
+        `MOHAB: "Every 'just looking' is a future invoice. Act accordingly." 🧾`,
+        `MOHAB: "If they ask for discount, increase your confidence." 💼`,
+        `MOHAB: "Don't show tiles… show them their dream home." ✨`,
+        `MOHAB: "I can smell a big sale from the parking lot. Get ready!" 👃💰`
     ];
     messages.push(`👔          : ${nasarJokes[Math.floor(Math.random() * nasarJokes.length)]}`);
 
@@ -413,7 +415,7 @@ function updateInsights(monthlyCounts, dailyTotal) {
     let topExec = Object.keys(monthlyCounts).reduce((a, b) => (monthlyCounts[a] || 0) > (monthlyCounts[b] || 0) ? a : b, "");
     if (topExec) messages.push(`👑 TOP GUN: ${topExec} is ruling the leaderboard!`);
 
-    insightEl.innerText = messages.join("        |        ") + "        |        ⚡ TEAM AL AIN: CONVERTING 'MAYBES' INTO 'INVOICES' SINCE 8:00 AM.        |        ";
+    insightEl.innerText = messages.join("        |        ") + "        |        ⚡ TEAM AL AIN: CONVERTING 'MAYBES' INTO 'INVOICES'.        |        ";
 }
 
 function calculatePeakHour(data) {
