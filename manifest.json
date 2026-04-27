@@ -1,6 +1,6 @@
 {
-  "name": "Fujairah Showroom Tracker",
-  "short_name": "FujTracker",
+  "name": "Al Ain Showroom Tracker",
+  "short_name": "AlnTracker",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f2f7f7",
