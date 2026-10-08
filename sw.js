@@ -1,4 +1,4 @@
-const CACHE = "szr-shell-v2";
+const CACHE = "aln-shell-v2";
 
 self.addEventListener("install", () => self.skipWaiting());
 
